@@ -1,0 +1,4 @@
+(executable
+ (public_name dedupe_ml)
+ (name main)
+ (libraries dedupe_ml))
