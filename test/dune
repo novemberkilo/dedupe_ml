@@ -1,2 +1,6 @@
-(test
- (name dedupe_ml))
+(library
+  (name test)
+  (libraries base stdio dedupe)
+  (inline_tests)
+  (preprocess
+    (pps ppx_expect ppx_inline_test)))

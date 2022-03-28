@@ -1,2 +1,6 @@
 (library
- (name dedupe_ml))
+  (name dedupe)
+  (wrapped false)
+  (modules Data Dedupe)
+  (libraries base stdio))
+
