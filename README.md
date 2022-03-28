@@ -1,4 +1,7 @@
 # dedupe_ml
+
+### WIP 🛠 -- under construction
+
 Dedupe CLI tool written in OCaml
 
 ## Usage
