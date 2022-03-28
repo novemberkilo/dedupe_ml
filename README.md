@@ -3,7 +3,7 @@ Dedupe CLI tool written in OCaml
 
 ## Usage
 
-Assuming built via ocaml toolchain (e.g. `dune build --release`)
+Assuming built via ocaml toolchainG
 
 ```
 # output in human readable format, duplicates detected under a given directory
