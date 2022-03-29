@@ -2,5 +2,5 @@
   (name dedupe)
   (wrapped false)
   (modules Data Dedupe)
-  (libraries base stdio))
+  (libraries base stdio unix))
 

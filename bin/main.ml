@@ -2,7 +2,7 @@ open Cmdliner
 
 (* dedupe DIR *)
 
-let dedupe dir = print_endline(String.concat " " ["Dedupe"; dir])
+let dedupe dir = Dedupe.run dir 
 
 let dir =
   let env =

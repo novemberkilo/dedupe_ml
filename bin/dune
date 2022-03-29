@@ -1,4 +1,4 @@
 (executable
- (public_name dedupe_ml)
+ (public_name dedupe)
  (name main)
  (libraries dedupe cmdliner))

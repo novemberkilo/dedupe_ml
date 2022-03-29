@@ -1,23 +1,36 @@
 # dedupe_ml
 
-### WIP 🛠 -- under construction
+An exercise in test driving OCaml - a Dedupe CLI tool to find duplicate files in a directory
 
-Dedupe CLI tool written in OCaml
+## Build
+
+```
+dune build
+```
+
+## Tests
+
+```
+dune runtest
+```
 
 ## Usage
-
-Assuming built via ocaml toolchainG
 
 ```
 # output in human readable format, duplicates detected under a given directory
 
     dedupe DIR
 
-    ...
-    Duplicates ---
-    /Users/navin/Desktop/Photos/Pictures from Austria 2015/P1190737.JPG
-    /Users/navin/Desktop/Photos/Pictures from Austria 2015/Skiing/P1190737.JPG
-    ---
-    ...
+# example:
+dedupe_ml % dune exec dedupe ./fixtures
+
+./fixtures/mangled/flim/mew.jpg
+./fixtures/mangled/mew.jpg
+
+./fixtures/mangled/flam/laptop does run pretty hot.jpg
+./fixtures/mangled/flim/cat.jpg
+
+./fixtures/mangled/event-1/done deal
+./fixtures/mangled/flim/done deal.jpg
 ```
 
