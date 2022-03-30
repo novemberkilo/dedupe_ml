@@ -1,6 +1,5 @@
 (library
-  (name dedupe)
-  (wrapped false)
-  (modules Data Dedupe)
-  (libraries base stdio unix))
-
+ (name dedupe)
+ (wrapped false)
+ (modules Data Dedupe)
+ (libraries base stdio unix))
